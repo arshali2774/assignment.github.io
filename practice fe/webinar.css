@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+.navbar{
+    background-color: crimson;
+    padding: .2%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+}
+.navlink{
+    background-color: crimson;
+    padding: 1%;
+    margin: 2%;
+    font-size: 100%;
+    color: white;
+}
+.heading{
+    flex-grow: 2;
+    font-size: 30px;
+}
+.text{
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+    margin: 1% 1% 0 1%;
+}
+h1,h3{
+    background-color: white;
+}
+h1{
+    padding: 3%;
+}
+h3{
+    padding-bottom: 2%;
+}
+.content{
+    background-color: white;
+    padding: 1%;
+    margin:0 1% 1% 1% ;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
+img{
+    max-width: 100%;
+}
+.photo{
+    width: 250px;
+    height:250px;
+    background-color: white;
+    margin: 1%;
+    text-align: center  ;
+}
+.anim{
+    transition:all .2s ease-in;
+}
+.anim:hover{
+    transform: scale(1.2) translateY(-20px);
+}
+.piclink{
+    background-color: white;
+    text-decoration: none;
+    color: crimson;
+}
+
+.piclink:hover{
+    color: black;
+}
+.piclink:visited{
+    color: darkgreen;
+}
+.piclink:focus{
+    color: blueviolet;
+}
+.footer{
+    padding:1%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    background-color: crimson;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+}
+.navbar-link:hover{
+    color: black;
+}
